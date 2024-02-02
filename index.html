@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./vars.css" />
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="assets/css/vars.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poller+One&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
   <style>
     a,
+    p,
     button,
     input,
     select,
@@ -27,6 +30,8 @@
     h5,
     * {
       box-sizing: border-box;
+      /* color: #f1ede5;
+      color: black;  */
       margin: 0;
       padding: 0;
       border: none;
@@ -38,20 +43,32 @@
     }
   </style>
   <title>Document</title>
+
+  <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+
 </head>
 
 <body>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<!--自作のJS-->
-<script src="js/package.js"></script>
-
-
   <div class="box1">
-    <section id="#home">
-      <div class="title">
-        <a id="#link">
+
+    <header>
+      <nav id="global-nav">
+        <div class="inner">
+          <ul class="global-list">
+            <li class="global-item"><a href="index.html#area-1">HOME</a></li>
+            <li class="global-item"><a href="#area-2">ABOUTME</a></li>
+            <li class="global-item"><a href="#area-3">SKILL</a></li>
+            <li class="global-item"><a href="index.html#area-4">ARTWORKS</a></li>
+            <li class="global-item"><a href="#area-5">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div id="wrapper">
+      <section class="area" id="area-1">
+        <div class="title1">
           <div class="rectangle-1"></div>
           <svg class="portfolio" width="1670" height="160" viewBox="0 0 1670 160" fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -83,412 +100,441 @@
               d="M0 -0.149902H-1.5V1.3501V158.875V160.375H0H74.806H76.306V158.875V88.1335L143.528 87.9134C143.529 87.9134 143.53 87.9134 143.531 87.9134C152.184 87.913 159.961 85.9037 166.823 81.8543C173.655 77.8221 179.025 72.3827 182.911 65.5517C186.796 58.7229 188.74 51.3409 188.74 43.4317C188.74 30.1912 184.564 19.5637 176.097 11.7309C167.658 3.77273 156.601 -0.149902 143.078 -0.149902H0ZM107.082 58.2052L107.078 58.212L107.074 58.2189C104.658 62.4764 101.25 65.8872 96.8175 68.4593C92.5485 70.8738 87.8501 72.0864 82.6922 72.0864H76.306V15.6771H82.6922C87.8366 15.6771 92.5259 16.9578 96.7922 19.5144L96.8015 19.5199L96.8108 19.5253C101.235 22.0908 104.644 25.5689 107.064 29.9764L107.078 30.0019L107.093 30.0269C109.652 34.2874 110.934 38.9699 110.934 44.1068C110.934 49.086 109.656 53.7775 107.082 58.2052Z"
               stroke="#F1EDE5" stroke-width="3" />
           </svg>
-      </div></a>
-    </section>
-
-  <header class="contents">
-    <header id="header">
-      <ul id="page-link">
-        <span>
-          <li><a href="#home">HOME</a></li>
-        </span>
-        <span>
-          <li><a href="#aboutme">ABOUTME</a></li>
-        </span>
-        <span>
-          <li><a href="#skill2">SKILL</a></li>
-        </span>
-        <span>
-          <li><a href="#artworks">ARTWORKS</a></li>
-        </span>
-        <span>
-          <li><a href="#contact2">CONTACT</a></li>
-        </span>
-      </ul>
-    </header>
-  </header>
-
-    <section id="#aboutme">
-      <div class="about-me1">
-        <span style="
-    display: flex;
-    align-items: baseline;
-    justify-content: center;"></span>
-        <span class="about-me1-span">A</span>
-        <span class="about-me1-span2">BOUT</span>
-        <span class="about-me1-span3">M</span>
-        <span class="about-me1-span4">E</span>
-        </span>
-    </section>
-
-    <div class="profile">
-      <div class="frame-63">
-        <div class="frame-60">
-          <img class="img-my" src="img/img-my0.png" />
         </div>
-      </div>
-      <div class="frame-133">
-        <div class="frame-62">
-          <div class="frame-35">
-            <div class="frame-34">
-              <div class="frame-33">
-                <div class="name">NAME :</div>
-                <div class="kaneko-anon">Kaneko Anon</div>
+      </section>
+
+      <section class="area" id="area-2">
+        <div class="about-me1">
+          <div class="about-me2">ABOUTME</div>
+        </div>
+        <div class="profile">
+          <div class="frame-63">
+            <div class="frame-60">
+              <img class="img-my" src="assets/img/img-my0.png" />
+            </div>
+          </div>
+          <div class="frame-133">
+            <div class="frame-62">
+              <div class="frame-35">
+                <div class="frame-34">
+                  <div class="frame-33">
+                    <div class="name">NAME :</div>
+                    <div class="kaneko-anon">Kaneko Anon</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="_2004-6-22-19-2-3-it-uiux">
+              <div class="_2004-6-22-19-2-3-it-uiux2">
+                2004年6月22日生まれ、19歳。
+                <a href="https://maps.app.goo.gl/6DzjtPxhrcg1oqhB8" target="_blank">岩手県</a>
+                生まれ、<a href="https://maps.app.goo.gl/Qhf4ybMpoH3L75YE8" target="_blank">福岡県</a>
+                、<a href="https://maps.app.goo.gl/HADVUDzB3Hvaoke9A" target="_blank">東京都</a>
+                育ち。
+                <br />
+                <a href="https://www.vantanhs.com/index.php" target="_blank">バンタンデザイン研究所高等部</a>
+                入学。
+                <br />
+                高校2.3年生の時、スタイリストアシスタントにつき卒業した。
+                <br />
+                <a href="https://www.tech.ac.jp/" target="_blank">東京デザインテクノロジーセンター専門学校</a>
+                に入学。
+                <br />
+                ITデザイン科・UIUXデザイナー専攻を選択。
+                <br />
+                趣味は、カラオケ・三國無双ゲーム・アニメと漫画見る・
+                <a href="https://www.instagram.com/stories/highlights/17999713679264242/" target="_blank">ネイル</a>
+                ・写真を撮る・
+                <br />
+                <a href="https://www.instagram.com/stories/highlights/18043745356362240/"
+                  target="_blank">フィギュア、アクスタ、缶バッチ、カード収集</a>
+                。
               </div>
             </div>
           </div>
         </div>
-        <div class="_2004-6-22-19-2-3-it-uiux">
-          <div class="_2004-6-22-19-2-3-it-uiux2">
-            2004年6月22日生まれ、19歳。
-            岩手県生まれ、福岡県・東京都育ち。
-            <br />
-            バンタンデザイン研究所高等部入学。
-            <br />
-            高校2.3年生の時、スタイリストアシスタントにつき卒業した。
-            <br />
-            東京デザインテクノロジーセンター専門学校に入学。
-            <br />
-            UIUXデザイナー専攻を選択。
-            <br />
-            趣味は、カラオケ・三國無双ゲーム・アニメと漫画見る
-            ネイル・写真を撮る
+      </section>
+
+      <section class="area" id="area-3">
+        <div class="skill">
+          <div class="s-kill-span">S...KILL</div>
+        </div>
+
+        <div class="software">
+          <div class="coding">software.</div>
+          <div class="line-5"></div>
+        </div>
+
+        <div class="skills">
+          <div class="coding">skills.</div>
+          <div class="line-6"></div>
+        </div>
+
+        <div class="cert">
+          <div class="coding">cert.</div>
+          <div class="line-7"></div>
+        </div>
+
+        <div class="kentei">
+          <div class="div4">
+            <a href="https://www.aft.or.jp/" target="_blank">色彩検定３級</a>
+          </div>
+          <div class="div5">
+            <a href="https://learn.microsoft.com/ja-jp/credentials/certifications/exams/az-900/"
+              target="_blank">Microsoft Azure AI基礎</a>
           </div>
         </div>
-      </div>
-    </div>
-
-
-    <div class="software">
-      <div class="coding">software.</div>
-      <div class="line-5"></div>
-    </div>
-
-    <div class="skills">
-      <div class="coding">skills.</div>
-      <div class="line-6"></div>
-    </div>
-
-    <div class="cert">
-      <div class="coding">cert.</div>
-      <div class="line-7"></div>
-    </div>
-
-    <div class="photo">
-      <div class="coding">photo.</div>
-      <div class="line-8"></div>
-    </div>
-
-    <div class="design">
-      <div class="coding">design.</div>
-      <div class="line-9"></div>
-    </div>
-
-    <div class="fashion">
-      <div class="coding">fashion.</div>
-      <div class="line-10"></div>
-    </div>
-
-    <div class="div4">色彩検定３級</div>
-    <div class="div5">Microsoft Azure AI基礎</div>
 
 
 
-    <div class="ai"></div>
-    <div class="aikon-6">
-      <img class="img-figma" src="img/img-figma0.png" />
-      <img class="img-ai" src="img/img-ai0.png" />
-      <img class="img-ps" src="img/img-ps0.png" />
-      <img class="img-power-point" src="img/img-power-point0.png" />
-      <img class="img-excel" src="img/img-excel0.png" />
-      <img class="img-vsc" src="img/img-vsc0.png" />
-    </div>
-    <div class="aikon-3">
-      <img class="img-misinn" src="img/img-misinn0.png" />
-      <img class="img-style" src="img/img-style0.png" />
-      <img class="img-camera" src="img/img-camera0.png" />
-    </div>
-
-
-    <section id="#skill2">
-      <div class="skill">
-        <div class="s-kill">
-          <span>
-            <span class="s-kill-span">S...</span>
-            <span class="s-kill-span2">kill</span>
-          </span>
-        </div>
-      </div>
-    </section>
-    <section id="#artworks">
-      <div class="aboutworks">
-        <span class="about-works-span">A</span>
-        <span class="about-works-span2">rt</span>
-        <span class="about-works-span3">W</span>
-        <span class="about-works-span4">orks</span>
-      </div>
-    </section>
-
-
-    <div class="fashion2">
-      <div class="fashion-2">
-
-        <div class="frame-80">
-          <img class="img-fashion-1" src="img/img-fashion-10.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-81">
-          <img class="img-fashion-2" src="img/img-fashion-20.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-82">
-          <img class="img-fashion-3" src="img/img-fashion-30.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-83">
-          <img class="img-fashion-4" src="img/img-fashion-40.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-84">
-          <img class="img-fashion-5" src="img/img-fashion-50.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-85">
-          <img class="img-fashion-6" src="img/img-fashion-60.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-86">
-          <img class="img-fashion-7" src="img/img-fashion-70.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-87">
-          <img class="img-fashion-8" src="img/img-fashion-80.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-88">
-          <img class="img-fashion-9" src="img/img-fashion-90.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-89">
-          <img class="img-fashion-10" src="img/img-fashion-100.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-90">
-          <img class="img-fashion-11" src="img/img-fashion-110.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-109">
-          <img class="img-fashion-12" src="img/img-fashion-120.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-106">
-          <img class="img-fashion-13" src="img/img-fashion-130.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-105">
-          <img class="img-fashion-14" src="img/img-fashion-140.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-74">
-          <img class="img-fashion-15" src="img/img-fashion-150.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-91">
-          <img class="img-fashion-16" src="img/img-fashion-160.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-75">
-          <img class="img-fashion-17" src="img/img-fashion-170.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-76">
-          <img class="img-fashion-18" src="img/img-fashion-180.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-58">
-          <img class="img-fashion-19" src="img/img-fashion-190.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-68">
-          <img class="img-fashion-20" src="img/img-fashion-200.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-67">
-          <img class="img-fashion-21" src="img/img-fashion-210.png" />
-          <div class="since">since</div>
-        </div>
-
-        <div class="frame-66">
-          <img class="img-fashion-22" src="img/img-fashion-220.png" />
-          <div class="since">since</div>
-        </div>
-
-      </div>
-    </div>
-
-
-    <!--photo 2 -->
-    <div class="photo2">
-      <div class="frame-10">
-        <div class="frame-70">
-          <img class="img-photo" src="img/img-photo0.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-101">
-          <img class="img-photo-2" src="img/img-photo-20.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-94">
-          <img class="img-photo-3" src="img/img-photo-30.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-99">
-          <img class="img-photo-4" src="img/img-photo-40.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-95">
-          <img class="img-photo-5" src="img/img-photo-50.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-98">
-          <img class="img-photo-6" src="img/img-photo-60.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-103">
-          <img class="img-photo-7" src="img/img-photo-70.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-93">
-          <img class="img-photo-8" src="img/img-photo-80.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-96">
-          <img class="img-photo-9" src="img/img-photo-90.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-100">
-          <img class="img-photo-10" src="img/img-photo-100.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-73">
-          <img class="img-photo-11" src="img/img-photo-110.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-71">
-          <img class="img-photo-12" src="img/img-photo-120.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-97">
-          <img class="img-photo-13" src="img/img-photo-130.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-72">
-          <img class="img-photo-14" src="img/img-photo-140.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-104">
-          <img class="img-photo-15" src="img/img-photo-150.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-102">
-          <img class="img-photo-16" src="img/img-photo-160.png" />
-          <div class="since">since</div>
-        </div>
-      </div>
-    </div>
-    </ul>
-    <div class="design2">
-      <div class="frame-200">
-        <div class="frame-111">
-          <img class="img-design" src="img/img-design0.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-113">
-          <img class="img-design-1" src="img/img-design-10.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-112">
-          <img class="img-design-2" src="img/img-design-20.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-116">
-          <img class="img-design-3" src="img/img-design-30.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-114">
-          <img class="img-design-4" src="img/img-design-40.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-115">
-          <img class="img-design-5" src="img/img-design-50.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-79">
-          <img class="img-design-6" src="img/img-design-60.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-78">
-          <img class="img-design-7" src="img/img-design-70.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-77">
-          <img class="img-design-8" src="img/img-design-80.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-108">
-          <img class="img-design-9" src="img/img-design-90.png" />
-          <div class="since">since</div>
-        </div>
-        <div class="frame-107">
-          <img class="img-design-10" src="img/img-design-100.png" />
-          <div class="since">since</div>
-        </div>
-      </div>
-    </div>
-
-    <section id="#contact2">
-      <header class="contact">
-        <div class="rectangle-3"></div>
-        <div class="div">
-          <div class="div2">お問い合わせフォーム</div>
-          <div class="line-4"></div>
-        </div>
-        <div class="frame-37">
-          <div class="instagram">
-            <div class="instagram2">Instagram</div>
-            <div class="instagram3">
-              <div class="rectangle-4"></div>
-              <div class="ellipse-1"></div>
-              <div class="ellipse-2"></div>
+        <div class="aikon6">
+          <div class="aikon-6">
+            <div class="ai-1">
+              <img class="img-figma" src="assets/img/img-figma0.png" />
+              <div class="since2">Figma</div>
+            </div>
+            <div class="ai-2">
+              <img class="img-ai" src="assets/img/img-ai0.png" />
+              <div class="since2">Illustrator</div>
+            </div>
+            <div class="ai-3">
+              <img class="img-ps" src="assets/img/img-ps0.png" />
+              <div class="since2">Photoshop</div>
+            </div>
+            <div class="ai-4">
+              <img class="img-power-point" src="assets/img/img-power-point0.png" />
+              <div class="since2">PowerPoint</div>
+            </div>
+            <div class="ai-5">
+              <img class="img-excel" src="assets/img/img-excel0.png" />
+              <div class="since2">Excel</div>
+            </div>
+            <div class="ai-6">
+              <img class="img-vsc" src="assets/img/img-vsc0.png" />
+              <div class="since2">VSC</div>
             </div>
           </div>
-          <div class="_2-oo-4-06-zz">
-            <a href="https://www.instagram.com/2oo4.06zz/" target="_blank">2oo4.06zz</a>
+        </div>
+        <div class="aikon-3">
+          <div class="ai-8">
+            <img class="img-style" src="assets/img/img-style0.png" />
+            <div class="since2">Styling</div>
+          </div>
+          <div class="ai-7">
+            <img class="img-misinn" src="assets/img/img-misinn0.png" />
+            <div class="since2">Sewing machine</div>
+          </div>
+          <div class="ai-9">
+            <img class="img-camera" src="assets/img/img-camera0.png" />
+            <div class="since2">Camera</div>
           </div>
         </div>
-      </header>
-    </section>
+      </section>
+
+      <section class="area" id="area-4">
+        <div class="art">
+          <p><span class="art-works-span">ARTWORKS</span></p>
+        </div>
+        <div class="fashion2">
+          <div class="fashion-2">
+
+            <div class="frame-80">
+              <img class="img-fashion-1" src="assets/img/img-fashion-10.png" />
+              <div class="since">2020</div>
+            </div>
+
+            <div class="frame-81">
+              <img class="img-fashion-2" src="assets/img/img-fashion-20.png" />
+              <div class="since">2020</div>
+            </div>
+
+            <div class="frame-82">
+              <img class="img-fashion-3" src="assets/img/img-fashion-30.png" />
+              <div class="since">2020</div>
+            </div>
+
+            <div class="frame-83">
+              <img class="img-fashion-4" src="assets/img/img-fashion-40.png" />
+              <div class="since">2020</div>
+            </div>
+
+            <div class="frame-84">
+              <img class="img-fashion-5" src="assets/img/img-fashion-50.png" />
+              <div class="since">2020</div>
+            </div>
+
+            <div class="frame-85">
+              <img class="img-fashion-6" src="assets/img/img-fashion-60.png" />
+              <div class="since">2020</div>
+            </div>
+
+            <div class="frame-86">
+              <img class="img-fashion-7" src="assets/img/img-fashion-70.png" />
+              <div class="since">2020</div>
+            </div>
+
+            <div class="frame-87">
+              <img class="img-fashion-8" src="assets/img/img-fashion-80.png" />
+              <div class="since">2020</div>
+            </div>
+
+            <div class="frame-88">
+              <img class="img-fashion-9" src="assets/img/img-fashion-90.png" />
+              <div class="since">2020</div>
+            </div>
+
+            <div class="frame-89">
+              <img class="img-fashion-10" src="assets/img/img-fashion-100.png" />
+              <div class="since">2020</div>
+            </div>
+
+            <div class="frame-90">
+              <img class="img-fashion-11" src="assets/img/img-fashion-110.png" />
+              <div class="since">2020</div>
+            </div>
+
+            <div class="frame-74">
+              <img class="img-fashion-15" src="assets/img/img-fashion-150.png" />
+              <div class="since">2021</div>
+            </div>
+
+            <div class="frame-91">
+              <img class="img-fashion-16" src="assets/img/img-fashion-160.png" />
+              <div class="since">2021</div>
+            </div>
+
+            <div class="frame-75">
+              <img class="img-fashion-17" src="assets/img/img-fashion-170.png" />
+              <div class="since">2021</div>
+            </div>
+
+            <div class="frame-76">
+              <img class="img-fashion-18" src="assets/img/img-fashion-180.png" />
+              <div class="since">2021</div>
+            </div>
+
+            <div class="frame-58">
+              <img class="img-fashion-19" src="assets/img/img-fashion-190.png" />
+              <div class="since">2022</div>
+            </div>
+
+            <div class="frame-68">
+              <img class="img-fashion-20" src="assets/img/img-fashion-200.png" />
+              <div class="since">2022</div>
+            </div>
+
+            <div class="frame-67">
+              <img class="img-fashion-21" src="assets/img/img-fashion-210.png" />
+              <div class="since">2022</div>
+            </div>
+
+            <div class="frame-66">
+              <img class="img-fashion-22" src="assets/img/img-fashion-220.png" />
+              <div class="since">2022</div>
+            </div>
+
+
+            <div class="frame-109">
+              <img class="img-fashion-12" src="assets/img/img-fashion-120.png" />
+              <div class="since">2023</div>
+            </div>
+
+            <div class="frame-106">
+              <img class="img-fashion-13" src="assets/img/img-fashion-130.png" />
+              <div class="since">2023</div>
+            </div>
+
+            <div class="frame-105">
+              <img class="img-fashion-14" src="assets/img/img-fashion-140.png" />
+              <div class="since">2023</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fashion">
+          <div class="coding">fashion.</div>
+          <div class="line-10"></div>
+        </div>
+
+
+
+        <!--photo 2 -->
+        <div class="photo2">
+          <div class="photo-2">
+            <div class="frame-10">
+              <div class="frame-101">
+                <img class="img-photo-2" src="assets/img/img-photo-20.png" />
+                <div class="since">2021</div>
+              </div>
+              <div class="frame-94">
+                <img class="img-photo-3" src="assets/img/img-photo-30.png" />
+                <div class="since">2021</div>
+              </div>
+              <div class="frame-99">
+                <img class="img-photo-4" src="assets/img/img-photo-40.png" />
+                <div class="since">2021</div>
+              </div>
+              <div class="frame-95">
+                <img class="img-photo-5" src="assets/img/img-photo-50.png" />
+                <div class="since">2021</div>
+              </div>
+              <div class="frame-98">
+                <img class="img-photo-6" src="assets/img/img-photo-60.png" />
+                <div class="since">2021</div>
+              </div>
+              <div class="frame-103">
+                <img class="img-photo-7" src="assets/img/img-photo-70.png" />
+                <div class="since">2021</div>
+              </div>
+              <div class="frame-93">
+                <img class="img-photo-8" src="assets/img/img-photo-80.png" />
+                <div class="since">2021</div>
+              </div>
+              <div class="frame-96">
+                <img class="img-photo-9" src="assets/img/img-photo-90.png" />
+                <div class="since">2021</div>
+              </div>
+              <div class="frame-100">
+                <img class="img-photo-10" src="assets/img/img-photo-100.png" />
+                <div class="since">2021</div>
+              </div>
+              <div class="frame-104">
+                <img class="img-photo-15" src="assets/img/img-photo-150.png" />
+                <div class="since">2021</div>
+              </div>
+              <div class="frame-102">
+                <img class="img-photo-16" src="assets/img/img-photo-160.png" />
+                <div class="since">2021</div>
+              </div>
+              <div class="frame-97">
+                <img class="img-photo-13" src="assets/img/img-photo-130.png" />
+                <div class="since">2021</div>
+              </div>
+              <div class="frame-70">
+                <img class="img-photo" src="assets/img/img-photo0.png" />
+                <div class="since">2022</div>
+              </div>
+              <div class="frame-73">
+                <img class="img-photo-11" src="assets/img/img-photo-110.png" />
+                <div class="since">2022</div>
+              </div>
+              <div class="frame-71">
+                <img class="img-photo-12" src="assets/img/img-photo-120.png" />
+                <div class="since">2022</div>
+              </div>
+              <div class="frame-72">
+                <img class="img-photo-14" src="assets/img/img-photo-140.png" />
+                <div class="since">2022</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="design">
+          <div class="coding">design.</div>
+          <div class="line-9"></div>
+        </div>
+
+        <div class="design2">
+          <div class="design-2">
+            <div class="frame-200">
+              <div class="frame-79">
+                <img class="img-design-6" src="assets/img/img-design-60.png" />
+                <div class="since">2022</div>
+              </div>
+              <div class="frame-78">
+                <img class="img-design-7" src="assets/img/img-design-70.png" />
+                <div class="since">2022</div>
+              </div>
+              <div class="frame-77">
+                <img class="img-design-8" src="assets/img/img-design-80.png" />
+                <div class="since">2022</div>
+              </div>
+              <div class="frame-108">
+                <img class="img-design-9" src="assets/img/img-design-90.png" />
+                <div class="since">2022</div>
+              </div>
+              <div class="frame-107">
+                <img class="img-design-10" src="assets/img/img-design-100.png" />
+                <div class="since">2022</div>
+              </div>
+              <div class="frame-111">
+                <img class="img-design" src="assets/img/img-design0.png" />
+                <div class="since">2023</div>
+              </div>
+              <div class="frame-113">
+                <img class="img-design-1" src="assets/img/img-design-10.png" />
+                <div class="since">2023</div>
+              </div>
+              <div class="frame-112">
+                <img class="img-design-2" src="assets/img/img-design-20.png" />
+                <div class="since">2023</div>
+              </div>
+              <div class="frame-116">
+                <img class="img-design-3" src="assets/img/img-design-30.png" />
+                <div class="since">2023</div>
+              </div>
+              <div class="frame-117">
+                <img class="img-design-3" src="assets/img/img-design-1.jpg" />
+                <div class="since">2023</div>
+              </div>
+              <div class="frame-114">
+                <img class="img-design-4" src="assets/img/img-design-40.png" />
+                <div class="since">2023</div>
+              </div>
+              <div class="frame-115">
+                <img class="img-design-5" src="assets/img/img-design-50.png" />
+                <div class="since">2023</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo">
+          <div class="coding">photo.</div>
+          <div class="line-8"></div>
+        </div>
+
+      </section>
+
+      <section class="area" id="area-5">
+        <header class="contact">
+          <div class="rectangle-3"></div>
+          <div class="div">
+            <div class="div2"></div>
+            <div class="otoi">
+              <div class="otoi2">
+                <a href="https://form.run/@ttc-du--HX8HRFI9eeDwzce7t7Wu">
+                  <color="#F1EDE5">お問い合わせフォーム</color>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="frame-37">
+            <div class="instagram">
+              <div class="instagram2">Instagram</div>
+              <div class="instagram3">
+                <div class="rectangle-4"></div>
+                <div class="ellipse-1"></div>
+                <div class="ellipse-2"></div>
+              </div>
+            </div>
+            <div class="_2-oo-4-06-zz">
+              <a href="https://www.instagram.com/2oo4.06zz/" target="_blank">2oo4.06zz</a>
+            </div>
+          </div>
+        </header>
+      </section>
+    </div>
+
+
+
   </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!--自作のJS-->
+  <script src="assets/js/package.js"></script>
+
 </body>
 
 </html>
