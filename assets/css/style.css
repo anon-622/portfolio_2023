@@ -446,6 +446,28 @@ a:hover {
 	border-style: solid;
 }
 
+.div6 {
+	color: #000000;
+	font-family: "NotoSansJp-DemiLight", sans-serif;
+	font-size: 2vw;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	& a {
+		color: skyblue;
+		font-size: 2.2vw;
+		text-align: center;
+	}
+}
+
+a:hover {
+	color: skyblue;
+	font-weight: bold;
+	text-decoration: none;
+	border-style: solid;
+}
+
 .cert {
 	display: flex;
 	flex-direction: row;
